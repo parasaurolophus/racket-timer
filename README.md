@@ -5,7 +5,7 @@ Interval timers from [Racket](https://racket-lang.org/) threads
 | Procedure                   | Description                                                                                    |
 |-----------------------------|------------------------------------------------------------------------------------------------|
 | `start-timer`               | Invoke a thunk in a separate thread after at least a given number of milliseconds have elapsed |
-| `call-with-timer-semaphore` | Invoke a thunk in the curren thread with the semaphore associated with a given timer locked    |
+| `call-with-timer-semaphore` | Invoke a thunk in the current thread with the semaphore associated with a given timer locked    |
 | `kill-timer`                | Kill a timer thread                                                                            |
 | `timer?`                    | Return `#t` if and only if a given object is a timer                                           |
 
