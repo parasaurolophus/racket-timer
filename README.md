@@ -50,5 +50,5 @@ Working _Racket_ installation: <https://docs.racket-lang.org/getting-started/ind
 ```bash
 git clone git@github.com:parasaurolophus/racket-timer.git
 cd racket-timer
-raco pkg update --link $PWD
+raco pkg install --name timer --link $PWD
 ```
