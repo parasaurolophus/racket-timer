@@ -1,0 +1,3 @@
+#!/bin/bash
+
+raco pkg update --name timer --link $PWD
